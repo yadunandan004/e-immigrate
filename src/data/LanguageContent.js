@@ -17,9 +17,10 @@ export const content = {
   en: {
     value: 'English',
     welcomeMessage: {
-      line1: 'Welcome to Virtual Citizenship Day',
-      line2: 'An online tool from the Center for Employment Training - Immigration & Citizenship Program (CET-ICP)',
-      line3: '',
+      line1: 'CITIZENSHIP WORKSHOP 2020',
+      line2: "Welcome to Project New Citizen with Santa Clara County's Office of Immigrant Relations.",
+      line3: 'Please watch the entire video and complete ALL the screening questions to be selected to take part in this FREE Citizenship Workshop!',
+      LogoTitle: 'Project New Citizen',
     },
     chooseLanguage: {
       step: 'Step 1',
@@ -33,17 +34,18 @@ export const content = {
     hubspot: {
       step: 'Step 3',
       hubspotFormId: '2245b12f-d7e2-4828-9346-1da44664495e',
-      line1: 'Please watch the entire video and complete ALL the screening questions to be selected to take part in this FREE Citizenship Workshop!',
-      line2: 'Thank you for watching the Project New Citizen orientation. In order to qualify to receive a FREE follow-up consultation with a legal service representative, we ask that you complete ALL of the screening questions. Please answer truthfully and as best as you can remember. Please complete ALL the questions to the best of your ability.'
+      line1: 'Thank you for watching the Project New Citizen orientation. In order to qualify to receive a FREE follow-up consultation with a legal service representative, we ask that you complete ALL of the screening questions. Please answer truthfully and as best as you can remember. Please complete ALL the questions to the best of your ability.',
+      line2: 'Please complete ALL the questions to the best of your ability.'
     },
   },
 
   es: {
     value: 'Español',
     welcomeMessage: {
-      line1: 'Bienvenida al día de la ciudadanía virtual',
-      line2: '¡Mire el video completo y conteste TODAS las preguntas para ser seleccionado para participar en este Taller de ciudadanía GRATUITO!',
-      line3: 'Gracias por ver la orientación de Proyecto Nuevo Ciudadano. Para calificar para recibir una consulta GRATUITA con un representante de servicios legales, le pedimos que responda a TODAS las preguntas. Responda con sinceridad y lo mejor que pueda recordar. Complete TODAS las preguntas lo mejor que pueda.',
+      line1: 'TALLER DE CIUDADANIA 2020',
+      line2: 'Bienvenido al Proyecto Nuevo Ciudadano de la Oficina de Relaciones con Inmigrantes del Condado de Santa Clara.',
+      line3: '¡Mire el video completo y conteste TODAS las preguntas para ser seleccionado para participar en este Taller de ciudadanía GRATUITO!',
+      LogoTitle: 'Proyecto Nuevo Ciudadano',
     },
     chooseLanguage: {
       step: 'Paso 1',
@@ -57,17 +59,18 @@ export const content = {
     hubspot: {
       step: 'Paso 3',
       hubspotFormId: 'c601d5d3-ad19-4aa9-bc4b-0458ded6bfb7',
-      line1: 'Responda TODAS las preguntas a continuación',
-      line2: 'Nota de Privacidad',
+      line1: 'Gracias por ver la orientación de Proyecto Nuevo Ciudadano. Para calificar para recibir una consulta GRATUITA con un representante de servicios legales, le pedimos que responda a TODAS las preguntas. Responda con sinceridad y lo mejor que pueda recordar. Complete TODAS las preguntas lo mejor que pueda.',
+      line2: 'Complete TODAS las preguntas lo mejor que pueda.',
     },
   },
 
   vi: {
     value: 'Tiếng Việt',
     welcomeMessage: {
-      line1: 'Chào mừng đến với Ngày quốc tịch ảo',
-      line2: 'Một công cụ trực tuyến từ Trung tâm Đào tạo Việc làm - Chương trình Nhập cư & Quốc tịch (CET-ICP)',
-      line3: '',
+      line1: 'NGÀY NHẬP TỊCH 2020',
+      line2: 'Chào mừng bạn đến với Dự án Công dân Mới với Văn phòng Quan hệ Di dân của Hạt Santa Clara.',
+      line3: 'Xin quý vị vui lòng xem hết buổi thu hình và trả lời HẾT tất cả các câu hỏi để có thể tiếp tục được sự giúp đỡ và tham gia vào buổi hội thảo Nhập Tịch!',
+      LogoTitle: 'Project New Citizen',
     },
     chooseLanguage: {
       step: 'Bước 1',
@@ -81,8 +84,8 @@ export const content = {
     hubspot: {
       step: 'Bước 3',
       hubspotFormId: '12359705-44a7-4be9-af94-3932edde8b34',
-      line1: 'Xin quý vị vui lòng xem hết buổi thu hình và trả lời HẾT tất cả các câu hỏi để có thể tiếp tục được sự giúp đỡ và tham gia vào buổi hội thảo Nhập Tịch!',
-      line2: 'Cám ơn quý vị đã xem hết buổi thu hình của Project New Citizen. Để có thể đủ tiêu chuẩn để nhận được tư vấn miễn phí với nhân viên đại diện, chúng tôi xin quý vị thành thật trả lời HẾT tất cả các câu hỏi và theo những gì quý vị nhớ nhất.',
+      line1: 'Cám ơn quý vị đã xem hết buổi thu hình của Project New Citizen. Để có thể đủ tiêu chuẩn để nhận được tư vấn miễn phí với nhân viên đại diện, chúng tôi xin quý vị thành thật trả lời HẾT tất cả các câu hỏi và theo những gì quý vị nhớ nhất.',
+      line2: 'Xin cố gắng trả lời hết những câu hỏi với khả năng của quý vị.',
     },
   }
 };

@@ -8,8 +8,9 @@ const LandingPage = ({ welcomeMessage }) => {
       <div className='welcome-message'>
         <h1>{ welcomeMessage.line1 }</h1>
         <div className='line2'>{ welcomeMessage.line2 }</div>
+        <div className='line3'>{ welcomeMessage.line3 }</div>
       </div>
-      <img src='https://blush.ly/mM4xntXUA/p' alt='people'/>
+      <img className='LandingIllustration' src='https://blush.ly/mM4xntXUA/p' alt='people'/>
     </div>
   );
 };
