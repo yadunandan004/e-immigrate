@@ -7,6 +7,7 @@ import LandingPage from '../../compositions/LandingPage/LandingPage';
 import Video from '../../compositions/Video/Video';
 import HubspotForm from '../../compositions/HubspotForm/HubspotForm';
 import { Switch, Route } from 'react-router-dom';
+import ExcelInput from '../../excelInput';
 
 import './MainContainer.css';
 import ProgressBar from '../../compositions/ProgressBar/ProgressBar';
@@ -64,6 +65,7 @@ const MainContainer = () => {
                     <Navbar language={language} setLanguage={setLanguage} />
                     <Switch>
                         <Route exact path="/">
+                            <ExcelInput />
                             <LandingPage
                                 content={content[language]}
                                 nextStep={nextStep}
