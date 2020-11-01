@@ -18,7 +18,16 @@ const ExcelInput = () => {
                 workbook.eachSheet((sheet, id) => {
                     sheet.eachRow((row, rowIndex) => {
                         // console.log(row.values, rowIndex);
-                        console.log(JSON.stringify(row.values));
+                        console.log({
+                            number: row.values[1],
+                            category: row.values[2],
+                            text: row.values[3],
+                            type: row.values[4],
+                            answerSelections: row.values[5],
+                            required: row.values[6] === 'Yes' ? true : false,
+                            followUp: row.values[7],
+                            toolTip: row.values[8],
+                        });
                     });
                 });
             });
